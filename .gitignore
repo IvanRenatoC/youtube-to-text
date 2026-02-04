@@ -1,0 +1,19 @@
+# Datos pesados / locales
+data/
+*.mp3
+*.wav
+*.m4a
+*.webm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editores
+.DS_Store
+.vscode/
