@@ -2,7 +2,9 @@ import json
 from pathlib import Path
 import whisper
 
-from utils import ensure_dirs, DATA_DIR, OUTPUTS_DIR, fmt_time
+#from utils import ensure_dirs, DATA_DIR, OUTPUTS_DIR, fmt_time
+from .utils import ensure_dirs, DATA_DIR, OUTPUTS_DIR, fmt_time
+
 
 def transcribe(
     audio_path: Path | None = None,

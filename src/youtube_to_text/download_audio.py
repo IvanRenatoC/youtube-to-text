@@ -1,6 +1,8 @@
 import subprocess
 from pathlib import Path
-from utils import ensure_dirs, DATA_DIR
+#from utils import ensure_dirs, DATA_DIR
+from .utils import ensure_dirs, DATA_DIR
+
 
 def download_audio(url: str, out_path: Path | None = None) -> Path:
     ensure_dirs()
