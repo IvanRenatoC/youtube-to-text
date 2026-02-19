@@ -1,19 +1,39 @@
-# Datos pesados / locales
+# -----------------------
+# Outputs / data (local)
+# -----------------------
+outputs/
 data/
 *.mp3
 *.wav
 *.m4a
 *.webm
 
+# -----------------------
 # Python
+# -----------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 .venv/
 venv/
+ENV/
+env/
 
+# -----------------------
 # Notebooks
+# -----------------------
 .ipynb_checkpoints/
 
-# OS / editores
+# -----------------------
+# OS / Editors
+# -----------------------
 .DS_Store
+**/.DS_Store
 .vscode/
+.idea/
